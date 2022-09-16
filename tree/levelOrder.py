@@ -24,6 +24,9 @@ class Solution:
             ans.append(level)
         return ans
 
+    def levelOrderBottom(self, root: Optional[TreeNode]) -> List[List[int]]:
+        pass
+
 if __name__ == '__main__':
     sol = Solution()
     root = array2tree('[3,9,20,null,null,15,7]')
